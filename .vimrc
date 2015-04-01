@@ -21,10 +21,17 @@ call vundle#begin()
 " " let Vundle manage Vundle, required
 Plugin 'gmarik/Vundle.vim'
 
+" ---------- STYLES ----------------------
 Bundle 'Lokaltog/vim-powerline'
+Bundle 'nathanaelkane/vim-indent-guides'
+let g:indent_guides_auto_colors = 1
+let g:indent_guides_guide_size = 1
 
 " ---------- FILEMANAGER -----------------
 Plugin 'scrooloose/nerdtree'
+Bundle 'jistr/vim-nerdtree-tabs'
+let g:nerdtree_tabs_open_on_console_startup = 1
+let g:NERDTreeChDirMode = 2
 
 " ---------- AUTOCOMPLETE -----------------
 Bundle 'Raimondi/delimitMate'
@@ -44,6 +51,19 @@ imap <C-e><C-e> <C-y>,
 call vundle#end()            " required
 filetype plugin indent on    " required
 
+" ----------------- ShortCut ---------------
+"  Ctrl + Right | Left | up to handle tabs
+nnoremap <C-Right>  :tabnext<CR>
+nnoremap <C-Left>   :tabprev<CR>
+nnoremap <C-Up>     :tabnew<CR>
+
+" Tab/Shift+Tab Indent/Outdent in visual mode
+vnoremap <Tab>      >gv
+vnoremap <S-Tab>    <gv
+
+" Keep Selection when indenting
+vnoremap > >gv
+vnoremap < <gv
 
 " ----------------- NERDTree binding at startup and close
 autocmd VimEnter * NERDTree
