@@ -1,4 +1,3 @@
-
 syntax on
 
 set nocompatible              " be iMproved, required
@@ -16,60 +15,60 @@ set guifont=Menlo\ Regular:h14
 " set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
-" " " alternatively, pass a path where Vundle should install plugins
-" " "call vundle#begin('~/some/path/here')
-" "
-" " let Vundle manage Vundle, required
-Plugin 'gmarik/Vundle.vim'
+" alternatively, pass a path where Vundle should install plugins
+"call vundle#begin('~/some/path/here')
 "
-" " ---------- STYLES ----------------------
+" let Vundle manage Vundle, required
+Plugin 'gmarik/Vundle.vim'
+
+" ---------- STYLES ----------------------
 Bundle 'Lokaltog/vim-powerline'
 Bundle 'nathanaelkane/vim-indent-guides'
 let g:indent_guides_auto_colors = 1
 let g:indent_guides_guide_size = 1
-"
-" " ---------- FILEMANAGER -----------------
+
+" ---------- FILEMANAGER -----------------
 Plugin 'scrooloose/nerdtree'
 Bundle 'jistr/vim-nerdtree-tabs'
 let g:nerdtree_tabs_open_on_console_startup = 1
 let g:NERDTreeChDirMode = 2
-"
-" " ---------- AUTOCOMPLETE -----------------
+
+" ---------- AUTOCOMPLETE -----------------
 Bundle 'Raimondi/delimitMate'
 Bundle 'Valloric/YouCompleteMe'
 Bundle 'marijnh/tern_for_vim'
 Bundle 'tpope/vim-surround'
-"
-" " ---------- JSHINT  -----------------
+
+" ---------- JSHINT  -----------------
 Bundle 'scrooloose/syntastic'
 let g:syntastic_javascript_checkers = ['jshint']
-"
-" " ----------------- EMMET -----------------
+
+" ----------------- EMMET -----------------
 Bundle 'mattn/emmet-vim'
-" imap <C-e><C-e> <C-y>,
-"
-" " All of your Plugins must be added before the following line
+imap <C-e><C-e> <C-y>,
+
+" All of your Plugins must be added before the following line
 call vundle#end()            " required
-" filetype plugin indent on    " required
-"
-" " ----------------- ShortCut ---------------
-" "  Ctrl + Right | Left | up to handle tabs
+filetype plugin indent on    " required
+
+" ----------------- ShortCut ---------------
+"  Ctrl + Right | Left | up to handle tabs
 nnoremap <C-Right>  :tabnext<CR>
 nnoremap <C-Left>   :tabprev<CR>
 nnoremap <C-Up>     :tabnew<CR>
-"
-" " Tab/Shift+Tab Indent/Outdent in visual mode
+
+" Tab/Shift+Tab Indent/Outdent in visual mode
 vnoremap <Tab>      >gv
 vnoremap <S-Tab>    <gv
-"
-" " Keep Selection when indenting
+
+" Keep Selection when indenting
 vnoremap > >gv
 vnoremap < <gv
-"
-" " NERDTree
+
+" NERDTree
 map <C-n> :NERDTreeToggle<CR>
-"
-" " ----------------- NERDTree binding at startup and close
+
+" ----------------- NERDTree binding at startup and close
 autocmd VimEnter * NERDTree 
 autocmd VimEnter * wincmd p
 autocmd StdinReadPre * let s:std_in=1
