@@ -48,6 +48,12 @@ let g:syntastic_javascript_checkers = ['jshint']
 Bundle 'mattn/emmet-vim'
 imap <C-e><C-e> <C-y>,
 
+" ----------------- Multiple Cursor ----------------
+Bundle 'terryma/vim-multiple-cursors'
+
+" ----------------- MarkDown Support ---------------
+Bundle 'gabrielelana/vim-markdown'
+
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -67,7 +73,7 @@ vnoremap > >gv
 vnoremap < <gv
 
 " NERDTree
-map <C-n> :NERDTreeToggle<CR>
+map <C-t> :NERDTreeToggle<CR>
 
 " ----------------- NERDTree binding at startup and close
 autocmd VimEnter * NERDTree 
