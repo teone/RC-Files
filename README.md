@@ -5,7 +5,7 @@ This is my .rc files storage
 
 Before using this `.vimrc` you should install:
 - [vundle](https://github.com/gmarik/Vundle.vim)
-- [solarized](https://github.com/altercation/vim-colors-solarized)
+- [solarized](https://github.com/altercation/vim-colors-solarized) _this is no longer used_
 - [monokai](https://github.com/sickill/vim-monokai)
 - cmake
 
