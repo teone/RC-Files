@@ -13,6 +13,7 @@ set tabstop=4
 set shiftwidth=4
 set guifont=Menlo\ Regular:h14
 set mouse=a
+set noswapfile
 
 " set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
