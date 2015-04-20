@@ -4,7 +4,7 @@ set nocompatible              " be iMproved, required
 filetype off                  " required
 syntax enable
 set background=dark
-colorscheme solarized 
+colorscheme monokai 
 set number
 
 set cursorline
@@ -23,6 +23,10 @@ call vundle#begin()
 "
 " let Vundle manage Vundle, required
 Plugin 'gmarik/Vundle.vim'
+
+" ---------- HELPERS --------------------
+Plugin 'vim-scripts/SyntaxAttr.vim'
+map -a  :call SyntaxAttr()<CR>
 
 " ---------- STYLES ----------------------
 Bundle 'Lokaltog/vim-powerline'

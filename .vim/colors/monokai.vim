@@ -112,10 +112,9 @@ hi SyntasticStyleWarningSign  ctermfg=231 ctermbg=NONE cterm=NONE guifg=#f92672 
 hi javaScriptFunction ctermfg=81 ctermbg=NONE cterm=NONE guifg=#66d9ef guibg=NONE gui=italic
 hi javaScriptRailsFunction ctermfg=81 ctermbg=NONE cterm=NONE guifg=#66d9ef guibg=NONE gui=NONE
 hi javaScriptBraces ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
-" hi jsFuncArgs   
-" hi jsFuncAssignObjChain  
-" hi jsStorageClass
-" hi jsDocTags 
-" hi javaScriptFunction        
-" hi javaScriptLabel           
-" hi javaScriptBraces  
+hi jsFuncArgs ctermfg=186 ctermbg=NONE cterm=NONE guifg=#e6db74 guibg=NONE gui=NONE
+hi jsFuncAssignObjChain ctermfg=186 ctermbg=NONE cterm=NONE guifg=#e6db74 guibg=NONE gui=NONE
+hi jsStorageClass ctermfg=231 ctermbg=NONE cterm=NONE guifg=#f92672 guibg=NONE gui=NONE
+hi jsDocTags ctermfg=186 ctermbg=NONE cterm=NONE guifg=#e6db74 guibg=NONE gui=NONE
+hi javaScriptLabel ctermfg=186 ctermbg=NONE cterm=NONE guifg=#e6db74 guibg=NONE gui=NONE
+hi javaScriptBraces ctermfg=186 ctermbg=NONE cterm=NONE guifg=#e6db74 guibg=NONE gui=NONE
