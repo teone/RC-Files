@@ -3,8 +3,8 @@ syntax on
 set nocompatible              " be iMproved, required
 filetype off                  " required
 syntax enable
-" set background=dark
-colorscheme monokai
+set background=dark
+colorscheme solarized 
 set number
 
 set cursorline
@@ -45,6 +45,9 @@ Bundle 'tpope/vim-surround'
 " ---------- JSHINT  -----------------
 Bundle 'scrooloose/syntastic'
 let g:syntastic_javascript_checkers = ['jshint']
+
+" ---------- TYPESCRIPT --------------
+Bundle 'leafgarland/typescript-vim'
 
 " ----------------- EMMET -----------------
 Bundle 'mattn/emmet-vim'
