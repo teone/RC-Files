@@ -118,3 +118,6 @@ hi jsStorageClass ctermfg=231 ctermbg=NONE cterm=NONE guifg=#f92672 guibg=NONE g
 hi jsDocTags ctermfg=186 ctermbg=NONE cterm=NONE guifg=#e6db74 guibg=NONE gui=NONE
 hi javaScriptLabel ctermfg=186 ctermbg=NONE cterm=NONE guifg=#e6db74 guibg=NONE gui=NONE
 hi javaScriptBraces ctermfg=186 ctermbg=NONE cterm=NONE guifg=#e6db74 guibg=NONE gui=NONE
+
+" ----------------------- TS -------------------------------
+" Check Out ~/.vim/bundle/typescript-vim/syntax/typescript.vim
