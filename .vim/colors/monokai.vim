@@ -108,6 +108,9 @@ hi SyntasticWarningSign ctermfg=231 ctermbg=NONE cterm=NONE guifg=#f92672 guibg=
 hi SyntasticStyleErrorSign ctermfg=231 ctermbg=NONE cterm=NONE guifg=#f92672 guibg=NONE gui=NONE
 hi SyntasticStyleWarningSign  ctermfg=231 ctermbg=NONE cterm=NONE guifg=#f92672 guibg=NONE gui=NONE
 
+" ---------------------- Various -------------------------
+hi Todo ctermfg=255 ctermbg=231 cterm=NONE guifg=#000000 guibg=#f92672 gui=bold
+
 " ----------------------  JS ------------------------------ 
 hi javaScriptFunction ctermfg=81 ctermbg=NONE cterm=NONE guifg=#66d9ef guibg=NONE gui=italic
 hi javaScriptRailsFunction ctermfg=81 ctermbg=NONE cterm=NONE guifg=#66d9ef guibg=NONE gui=NONE
