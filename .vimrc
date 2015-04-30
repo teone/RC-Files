@@ -63,6 +63,9 @@ Bundle 'terryma/vim-multiple-cursors'
 " ----------------- MarkDown Support ---------------
 Bundle 'gabrielelana/vim-markdown'
 
+" ----------------- WakaTime -----------------------
+Bundle 'wakatime/vim-wakatime'
+
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
