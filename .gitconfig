@@ -8,4 +8,6 @@
 [color]
 	ui = auto
 [core]
-	editor = mvim 
+	editor = vim 
+[url "https://"]
+	insteadOf = git://

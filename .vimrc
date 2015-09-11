@@ -5,12 +5,13 @@ filetype off                  " required
 syntax enable
 set background=dark
 colorscheme monokai 
+" colorscheme solarized
 set number
 
 set cursorline
 set expandtab
-set tabstop=4
-set shiftwidth=4
+set tabstop=2
+set shiftwidth=2
 set guifont=Menlo\ Regular:h14
 set mouse=a
 set noswapfile
