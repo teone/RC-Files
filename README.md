@@ -19,3 +19,7 @@ _Install all the plugins_:
 - `:PluginInstall`
 
 And Enjoy!
+
+#### TODO
+
+- Create a sh script to install everything
