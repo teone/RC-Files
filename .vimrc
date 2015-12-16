@@ -4,8 +4,8 @@ set nocompatible              " be iMproved, required
 filetype off                  " required
 syntax enable
 set background=dark
-colorscheme monokai 
-" colorscheme solarized
+" colorscheme monokai 
+colorscheme solarized
 set number
 
 set cursorline
