@@ -5,7 +5,7 @@ ubuntu:
 	cp .vimrc ~
 	cp -r .vim ~
 	# setup Vundle
-	if [! -d '~/.vim/buncle/Vundle.vim']; then \
+	if [! -d '~/.vim/bundle/Vundle.vim']; then \
 		git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim; \
 	fi
 	# install plugins with vindle
@@ -19,7 +19,7 @@ mac:
 	cp .vimrc ~
 	cp -r .vim ~
 	# setup Vundle
-	if [! -d '~/.vim/buncle/Vundle.vim']; then \
+	if [! -d '~/.vim/bundle/Vundle.vim']; then \
 		git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim; \
 	fi
 	# install plugins with vindle
